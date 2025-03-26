@@ -1,0 +1,15 @@
+<div class="px-16 py-12 todo-form bg-gradient-to-r from-purple-600 to-indigo-600">
+  <h1 class="py-6 text-7xl font-bold text-white text-shadow-lg">To-Do App</h1>
+  <p class="py-4 text-2xl font-medium text-gray-100">Add a new task</p>
+  <input
+    [(ngModel)]="taskName"
+    placeholder="Enter new task"
+    class="w-1/2 p-4 mb-6 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent"
+  />
+  <button
+    (click)="onSubmit()"
+    class="block px-8 py-3 text-lg font-semibold text-white bg-purple-500 rounded-lg hover:bg-purple-700 transition-colors"
+  >
+    Add Task
+  </button>
+</div>

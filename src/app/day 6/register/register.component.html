@@ -1,0 +1,31 @@
+<script src="https://cdn.tailwindcss.com"></script>
+<body class="bg-gradient-to-br from-blue-500 to-purple-600 min-h-screen flex items-center justify-center">
+  <div class="container py-8 px-4">
+    <h1 class="mb-6 text-3xl font-extrabold text-center text-white drop-shadow-lg">Register Now</h1>
+    <form class="w-full max-w-sm p-8 mx-auto bg-white/20 backdrop-blur-md rounded-xl shadow-lg border border-white/30">
+      <div class="mb-4">
+        <label class="block mb-2 text-sm font-bold text-white" for="name">Name</label>
+        <input class="w-full px-3 py-2 bg-white/30 border border-white/50 rounded-md text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white"
+          type="text" id="name" name="name" placeholder="John Doe">
+      </div>
+      <div class="mb-4">
+        <label class="block mb-2 text-sm font-bold text-white" for="email">Email</label>
+        <input class="w-full px-3 py-2 bg-white/30 border border-white/50 rounded-md text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white"
+          type="email" id="email" name="email" placeholder="john@example.com">
+      </div>
+      <div class="mb-4">
+        <label class="block mb-2 text-sm font-bold text-white" for="password">Password</label>
+        <input class="w-full px-3 py-2 bg-white/30 border border-white/50 rounded-md text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white"
+          type="password" id="password" name="password" placeholder="********">
+      </div>
+      <div class="mb-4">
+        <label class="block mb-2 text-sm font-bold text-white" for="confirm-password">Confirm Password</label>
+        <input class="w-full px-3 py-2 bg-white/30 border border-white/50 rounded-md text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white"
+          type="password" id="confirm-password" name="confirm-password" placeholder="********">
+      </div>
+      <button
+        class="w-full px-4 py-2 text-sm font-bold text-white transition duration-300 bg-white/30 rounded-md hover:bg-white/50 focus:outline-none focus:ring-2 focus:ring-white">
+        Register</button>
+    </form>
+  </div>
+</body>
