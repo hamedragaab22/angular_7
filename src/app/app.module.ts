@@ -13,6 +13,7 @@ import { ParentcontainerComponent } from './task-two/day 5/parentcontainer/paren
 import { FormchildComponent } from './task-two/day 5/formchild/formchild.component';
 import { ShowchildComponent } from './task-two/day 5/showchild/showchild.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http'; 
 import { HeaderComponent } from './day 6/header/header.component';
 import { LoginComponent } from './day 6/login/login.component';
 import { RegisterComponent } from './day 6/register/register.component';
@@ -45,15 +46,18 @@ import { CartComponent } from './day 6/cart/cart.component';
     HomeComponent,
     CartComponent
   ],
+  
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule
   ],
   providers: [
     provideClientHydration()
   ],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
