@@ -12,7 +12,7 @@ import { TaskTwoComponent } from './task-two/task-two.component';
 import { ParentcontainerComponent } from './task-two/day 5/parentcontainer/parentcontainer.component';
 import { FormchildComponent } from './task-two/day 5/formchild/formchild.component';
 import { ShowchildComponent } from './task-two/day 5/showchild/showchild.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http'; 
 import { HeaderComponent } from './day 6/header/header.component';
 import { LoginComponent } from './day 6/login/login.component';
@@ -52,6 +52,7 @@ import { CartComponent } from './day 6/cart/cart.component';
     AppRoutingModule,
     FormsModule,
     RouterModule,
+    ReactiveFormsModule,
     HttpClientModule
   ],
   providers: [
